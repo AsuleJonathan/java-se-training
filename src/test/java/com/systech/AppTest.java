@@ -1,20 +1,19 @@
 package com.systech;
 
-import static org.junit.Assert.assertTrue;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-{
-    /**
-     * Rigorous Test :-)
-     */
-    @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+public class AppTest {
+    //? Reference =>
+    App app=new App();
+@Test
+    void add() {
+        //when
+        int result = app.add(2,3);
+        //then
+        int expected = 5;
+        //verify that result = expected 
+       Assertions.assertEquals(expected, result);
+    
     }
 }
