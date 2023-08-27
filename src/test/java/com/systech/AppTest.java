@@ -1,8 +1,5 @@
 package com.systech;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
-
 public class AppTest {
     //? Reference =>
     App app=new App();
