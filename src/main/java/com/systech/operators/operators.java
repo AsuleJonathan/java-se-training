@@ -112,6 +112,7 @@ public class operators {
 
     public void notLogicalOperators() {
         int studentOneAge = 17;
+        int studentTwoAge = 25;
         boolean isStudentOneAllowed = studentOneAge >= 18;
         // and operator
         if (!isStudentOneAllowed) {
@@ -119,8 +120,17 @@ public class operators {
         } else {
             LOGGER.info("Not allowed  for ID registration");
         }
+    
+        // Do one for less than or equal to operator
+         boolean isStudentOneAgeLessThanOrEqualToStudentTwoAge = studentOneAge <= studentTwoAge;
+         LOGGER.info("isStudentOneAgeLessThanOrEqualToStudentTwoAge: " + isStudentOneAgeLessThanOrEqualToStudentTwoAge);
+ 
+         // Do one for greater than or equal to operator
+         boolean isStudentOneAgeGreaterThanOrEqualToStudentTwoAge = studentOneAge >= studentTwoAge;
+         LOGGER.info("isStudentOneAgeGreaterThanOrEqualToStudentTwoAge: " + isStudentOneAgeGreaterThanOrEqualToStudentTwoAge);
+     }
 
-    }
+
 
     public static void main(String[] args) {
         operators app = new operators();
