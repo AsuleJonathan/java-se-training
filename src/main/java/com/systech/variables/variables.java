@@ -1,9 +1,9 @@
-package com.systechafrica.variables;
+package com.systech.variables;
 
 import java.util.logging.Logger;
 
-public class VariablesDemo {
-    private static final Logger LOGGER = Logger.getLogger(VariablesDemo.class.getName());
+public class variables {
+    private static final Logger LOGGER = Logger.getLogger(variables.class.getName());
 
     private void variableDeclarations() {
         // integer variable
@@ -93,7 +93,7 @@ public class VariablesDemo {
     }
 
     public static void main(String[] args) {
-        VariablesDemo demo = new VariablesDemo();
+        variables demo = new variables();
         demo.variableDeclarations();
         demo.constantsVariables();
         demo.integerTypes();
