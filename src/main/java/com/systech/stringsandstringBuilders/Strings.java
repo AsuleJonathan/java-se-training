@@ -1,4 +1,4 @@
-package com.systechtraining.stringsandstringBuilders;
+package com.systech.stringsandstringBuilders;
 
 import java.util.logging.Logger;
 
