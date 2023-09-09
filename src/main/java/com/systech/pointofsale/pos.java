@@ -1,5 +1,8 @@
-package pointofsale;
+package com.systech.pointofsale;
 
-public class pos{
-     
-}
+import java.util.Scanner;
+
+    public class Pos {
+        
+    }
+
