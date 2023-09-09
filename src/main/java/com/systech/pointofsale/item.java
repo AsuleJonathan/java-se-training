@@ -1,3 +1,7 @@
-public class item {
+package com.systech.pointofsale;
+
+    public class item {
+
+    }
     
-}
+
