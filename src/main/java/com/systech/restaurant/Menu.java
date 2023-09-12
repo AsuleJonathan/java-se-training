@@ -1,37 +1,88 @@
 package com.systech.restaurant;
 
+import java.util.ArrayList;
+
+
 public class Menu {
-    private String option;
-    private int price;
+
+    private int chai;
+    private int andazi;
+    private int tosti;
+    private int ndenguAndAccompishments;
+    private int beansAndAccompishments;
+    private int pilauVeg;
     
-    public Menu(String option, int price) {
-        this.option = option;
-        this.price = price;
+
+     public Menu() {
+
     }
 
-    public String getOption() {
-        return option;
+    public Menu(int chai, int andazi, int tosti, int ndenguAndAccompishments, int beansAndAccompishments, int pilauVeg ) {
+        this.chai = chai;
+        this.andazi = andazi;
+        this.tosti = tosti;
+        this.ndenguAndAccompishments = ndenguAndAccompishments;
+        this.beansAndAccompishments = beansAndAccompishments;
+        this.pilauVeg = pilauVeg;
+       
     }
 
-    public void setOption(String option) {
-        this.option = option;
+    public int getChai() {
+        return chai;
+    }
+
+   
+    public void setChai(int chai) {
+        this.chai += chai;
+       
+    }
+
+    public int getAndazi() {
+        return andazi;
     }
 
 
-    public int getPrice() {
-        return price;
+    public void setAndazi(int andazi) {
+        this.andazi += andazi;
+ 
     }
 
-    public void setPrice(int price) {
-        this.price = price;
+    public int getTosti() {
+        return tosti;
     }
+
+    public void setTosti(int tosti) {
+        this.tosti += tosti;
+    }
+
+    public int getNdenguAndAccompishments() {
+        return ndenguAndAccompishments;
+    }
+
+    public void setNdenguAndAccompishments(int ndenguAndAccompishments) {
+        this.ndenguAndAccompishments += ndenguAndAccompishments;
+    }
+
+    public int getBeansAndAccompishments() {
+        return beansAndAccompishments;
+    }
+
+    public void setBeansAndAccompishments(int beansAndAccompishments) {
+        this.beansAndAccompishments += beansAndAccompishments;
+    }
+
+    public int getPilauVeg() {
+        return pilauVeg;
+    }
+
+    public void setPilauVeg(int pilauVeg) {
+        this.pilauVeg += pilauVeg;
+    }
+
+    public int calculateTotalOrderCost() {
+        return (this.chai + this.andazi + this.tosti + this.ndenguAndAccompishments + this.beansAndAccompishments + this.pilauVeg);
+    }
+
+   
     
-    public Menu(){
-
-    }
-
-
-    public void showOption(){
-        System.out.println(option);
-    }
 }
