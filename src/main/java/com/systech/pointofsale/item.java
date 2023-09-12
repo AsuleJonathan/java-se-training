@@ -1,12 +1,12 @@
 package com.systech.pointofsale;
 
-public class item {
+public class Item {
     private String itemCode;
     private int quantity;
     private double pricePerItem;
     private double totalValue;
 
-    public item(String itemCode, int quantity, double pricePerItem, double totalValue) {
+    public Item(String itemCode, int quantity, double pricePerItem, double totalValue) {
         this.itemCode = itemCode;
         this.quantity = quantity;
         this.pricePerItem = pricePerItem;
