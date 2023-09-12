@@ -13,7 +13,7 @@ public class Atm {
     final String PASSWORD = "Admin123";
     double balance = 1000.0;
     int attempts = 3;
-    boolean b = true;;scjhascasckla
+    boolean b = true;
  
     
 
