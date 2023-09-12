@@ -81,7 +81,7 @@ public void addItem() {
 
     System.out.println("Item added successfully! ");
 
-    System.out.println("To add another item type 'add if not type N to exit");
+    System.out.println("To add another item type Y add if not type N to exit");
     String addItem = scanner.nextLine();
     if (addItem.equalsIgnoreCase("add")) {
         return;
