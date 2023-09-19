@@ -2,8 +2,8 @@ package com.systech.operators;
 
 import java.util.logging.Logger;
 
-public class operators {
-    private static final Logger LOGGER = Logger.getLogger(operators.class.getName());
+public class Operators {
+    private static final Logger LOGGER = Logger.getLogger(Operators.class.getName());
 
     public void arithmeticOperators() {
 
@@ -122,7 +122,7 @@ public class operators {
 
 
     public static void main(String[] args) {
-        operators app = new operators();
+        Operators app = new Operators();
         app.notLogicalOperators();
     }
 }
