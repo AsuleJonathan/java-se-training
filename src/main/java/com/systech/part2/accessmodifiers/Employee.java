@@ -14,5 +14,8 @@ public class Employee {
     public static void main(String[] args) {
        
     }
+
+    public void setId(String string) {
+    }
     
 }
