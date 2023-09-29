@@ -3,7 +3,7 @@ package com.systech.restaurant;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import com.systech.util.Login;
+import com.systech.pointofsale.Login;
 
 public class Restaurant {
   Scanner scanner = new Scanner(System.in);

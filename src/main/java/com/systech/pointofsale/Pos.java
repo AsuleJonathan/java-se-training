@@ -1,9 +1,6 @@
 package com.systech.pointofsale;
 
 import java.util.Scanner;
-
-import com.systech.util.Login;
-
 import java.util.ArrayList;
 import java.util.List;
 
